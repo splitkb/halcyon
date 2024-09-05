@@ -1,0 +1,59 @@
+(footprint "Module" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0.01 -0.370002 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 229e17b6-9fc6-4584-a547-1259a8148338)
+  )
+  (fp_text value "Module" (at 0.01 1.129998 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e82aed98-90ea-477a-a98e-5f86273a4c00)
+  )
+  (fp_text user "x" (at 0 -11.825 unlocked) (layer "Eco1.User")
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 02cecc77-54c8-41c4-a5e6-fa949b05ff57)
+  )
+  (fp_text user "x" (at -7.35 14.35 unlocked) (layer "Eco1.User")
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 5c28e915-d8c5-4269-b21d-f5258aaf192f)
+  )
+  (fp_text user "x" (at 7.35 14.35 unlocked) (layer "Eco1.User")
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 9ecedcfa-8fef-4e96-b75c-d21e47b955e2)
+  )
+  (fp_line (start -9 -14.35) (end -9 14.35)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 85b6f4e0-cf8b-4bb2-a534-2e7c2a6b48fa))
+  (fp_line (start -7.35 16) (end 7.35 16)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp f77e7777-51aa-4b08-862c-f9c33fa69688))
+  (fp_line (start 7.35 -16) (end -7.35 -16)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp cf966acb-1273-4adc-9251-72d0a20f2a21))
+  (fp_line (start 9 14.35) (end 9 -14.35)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp d3913d23-9c34-4a51-8558-16887240790e))
+  (fp_arc (start -9 -14.35) (mid -8.516726 -15.516726) (end -7.35 -16)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 091cfc87-2ab4-4014-bddc-1883bdc51a58))
+  (fp_arc (start -7.35 16) (mid -8.516726 15.516726) (end -9 14.35)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp afd9311c-2104-44d4-9e9c-efa4367b3220))
+  (fp_arc (start 7.35 -16) (mid 8.516726 -15.516726) (end 9 -14.35)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 354e81f1-7380-481b-94b8-cfea0e26268a))
+  (fp_arc (start 9 14.35) (mid 8.516726 15.516726) (end 7.35 16)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 12ebe948-2981-48ef-8146-7eaa9d64c4bc))
+  (pad "1" thru_hole circle (at -7.35 -14.35) (size 3.3 3.3) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp c88f14e2-986a-4917-89c0-524da1caafe9))
+  (pad "1" thru_hole circle (at 7.35 -14.35) (size 3.3 3.3) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 5fc9fef9-9ed3-4723-967d-c5c5b6cf5e04))
+  (group "" (id 6c8f0291-a3bb-4faa-bc7a-05fc86e28fbb)
+    (members
+      091cfc87-2ab4-4014-bddc-1883bdc51a58
+      12ebe948-2981-48ef-8146-7eaa9d64c4bc
+      354e81f1-7380-481b-94b8-cfea0e26268a
+      85b6f4e0-cf8b-4bb2-a534-2e7c2a6b48fa
+      afd9311c-2104-44d4-9e9c-efa4367b3220
+      cf966acb-1273-4adc-9251-72d0a20f2a21
+      d3913d23-9c34-4a51-8558-16887240790e
+      f77e7777-51aa-4b08-862c-f9c33fa69688
+    )
+  )
+  (model "${SPLITKB_PRIME}/Footprint Library.pretty/3D Models/vik-keyboard-connector_ROUGH.step"
+    (offset (xyz 0 14 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
+)
