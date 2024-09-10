@@ -2,6 +2,12 @@
 
 For full documentation about how to design your module, please check out the [documentation site](https://docs.splitkb.com/product-guides/halcyon-series/advanced/designing-module)
 
+
+## Dimensions
+
+![Halcyon module dimensions](hlc_module_dimensions.png)
+
+
 ## Components
 
 | Reference | Manufacturer Part No. | Description |
