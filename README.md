@@ -10,6 +10,23 @@ These files are available for non-commercial use only. You explicitly have permi
 
 You'll find folders in this repository, where each keyboard gets its own folder. Does your keyboard not have a folder yet? Then we're working on adding the files still. Feel free to [join our Discord server](https://splitkb.com/discord) for status updates and questions.
 
+## Other files
+
+Some folders contain files for accessories and other parts of the Halcyon ecosystem.
+
+### Dongle
+
+The dongle case files are provided as STL files for 3D printing:
+
+dongle-body.stl: the main body of the dongle case.
+dongle-lid.stl: the lid for the dongle case.
+
+These files are intended to be 3D printed. You may modify them to suit your printer, materials, or preferred assembly method.
+
+### Halcyon module template
+
+A template for a Halcyon module is also included. Use this template as a reference when designing or modifying your own Halcyon-compatible modules. A README is included in the folder.
+
 ## Which files do I need?
 
 1. Look for the folder of your keyboard.
